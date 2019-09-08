@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mine</title>
+        <script src="/Code/mine.js"></script>
+        <link rel="stylesheet" href="/Code/mine.css">
+        
+    </head>
+
+    <body>
+        
+        <div id="gameUntil">
+            <div>
+            游戏难度:<select id="select">
+                <option value="9">9*9</option>
+                <option value="10">10*10</option>
+                <option value="15">15*15</option>
+            </select>
+            </div>
+            <div>
+                自定义雷:<input type="number" id="mineCount">
+            </div>
+           
+            <div>
+                🚩:<span id="flag"></span>
+            </div>
+        </div>
+
+        <div id="game">
+        </div>
+        <div id="over">游戏结束</div>
+        </body>
